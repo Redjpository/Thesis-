@@ -1,0 +1,61 @@
+body{
+    background-image: url('BG\ Image.png');
+}
+.logo{
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo2{
+    height: 80px;
+    display: block;
+}
+
+.tagline{
+    font-family: system-ui;
+    color: white;
+}
+.sign-in, .sign-up{
+    padding: 20px 30px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:sans-serif;
+    background-color: #f44336;
+    color: white;
+    border: solid #b63229;
+    transition: 0.5s;
+}
+
+.sign-in:hover{
+    font-weight: bold;
+    font-size: 20px;
+    border: #f44336;
+    background-color: white;
+    color: #f44336;
+}
+
+.sign-up:hover{
+    font-weight: bold;
+    font-size: 20px;
+    border: #f44336;
+    background-color: white;
+    color: #f44336;
+}
+
+.container {
+    height: 600px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

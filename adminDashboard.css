@@ -1,0 +1,98 @@
+
+header{
+    background-color: #000000;
+    padding: 5px;
+    color: white;
+}
+
+.logo{
+    width: 40px;
+    height: 45px;
+    float: left;
+    margin-top: -10px;
+}
+
+.user-acc{
+    font-family: system-ui;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 5px;
+}
+.user-acc:hover{
+    color: red;
+    border: 2px solid red;
+}
+.header-left h3{
+font-family: system-ui;
+}
+
+.header-right{
+    font-family: system-ui;
+    font-size: medium;
+    float: right;
+    margin: -42px;
+    margin-right: 20px;
+}
+
+.header-right a{
+    text-decoration: none;
+}
+
+.dashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.dashboard_sidebar{
+    width: 25%;
+    background: #000000;
+    height: 100vh;
+    text-align: center;
+    font-family: system-ui;
+    font-size: medium;
+}
+
+.dashboard_content_container{
+    margin-top: -50px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.dashboard_menu_lists{
+    padding: 5px;
+    margin-top: 20px;
+}
+.dashboard_menu_lists li{
+    padding: 10px 0px;
+    text-transform: uppercase
+}
+.dashboard_menu_lists li a{
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    display: block;
+    font-size: 18px;
+}
+
+.dashboard_menu_lists li .menuActive{
+    background-color: gray;
+    color: white;
+}
+
+.dashboard_menu_lists li:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.3s all;
+}
+
+.dashboard_content{
+ padding: 50px 10px 10px 10px;
+}
+
+.dashboard_content_main{
+    background: white;
+    min-height: 730px;
+    height: 100%;
+}
